@@ -34,3 +34,7 @@ Let’s say a woman is 25 years old, 170 cm tall, and weighs 70 kg. Her activity
         BMR = 10 * 70 + 6.25 * 170 - 5 * 25 - 161
         BMR = 700 + 1062.5 - 125 - 161
         BMR = 1476.5 kcal/day
+
+<div align="center">
+  <img src="https://www.agirsaglam.com/wp-content/uploads/2021/04/Kalori-Makro-Hesaplama.jpg" alt="Resim Açıklaması" width="1000">
+</div>
