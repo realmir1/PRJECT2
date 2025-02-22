@@ -42,3 +42,63 @@ Bu C++ programı, kullanıcının yaş, boy, kilo, cinsiyet ve fiziksel aktivite
 ## Lisans
 Bu proje **MIT Lisansı** altında sunulmuştur.
 
+
+---
+
+
+# Patient-Based Calorie Calculation Program
+
+## Overview
+This program calculates the Basal Metabolic Rate (BMR) and the daily calorie requirement based on a patient's age, height, weight, gender, and activity level.
+
+## Features
+- User inputs age, height (cm), weight (kg), gender (M/W), and activity level (low, moderate, or high).
+- Computes BMR using the Harris-Benedict equation.
+- Calculates daily calorie needs based on activity level.
+- Displays a summary of input values and results in a structured format.
+
+## How to Use
+1. Run the program.
+2. Enter the required personal details when prompted.
+3. The program will calculate and display the BMR and estimated daily calorie needs.
+
+## Formulas Used
+- **For Women:**
+  ```
+  BMR = 10 * weight + 6.25 * height - 5 * age - 161
+  ```
+- **For Men:**
+  ```
+  BMR = 10 * weight + 6.25 * height - 5 * age + 5
+  ```
+- **Calorie Requirement Based on Activity Level:**
+  - Low activity: BMR × 1.2
+  - Moderate activity: BMR × 1.55
+  - High activity: BMR × 1.9
+
+## Example Input/Output
+```
+Patient-Based Calorie Calculation Program
+Please specify your activity level (low, moderate, or high): moderate
+Please enter your age: 25
+Please enter your height (cm): 175
+Please enter your weight (kg): 70
+Please enter your gender (M/W): M
+
+BMR = 1715 kcal/day
+Calorie requirement = 2651 kcal/day
+
+-----------------------------------------
+Weight: 70 kg
+Height: 175 cm
+Age: 25 years
+Gender: M
+```
+
+## License
+This project is open-source and available for modification and distribution.
+
+## Contributions
+Feel free to fork the repository and suggest improvements!
+
+
